@@ -2,14 +2,18 @@ First objective make sinatra to work with active record and postgreSQL
 
 Create PostgreSQL db
 
-#create test and development db
+## create test and development db
+
 rake db:create
 
-#migrate the development db
+## migrate the development db
+
 rake db:migrate
 
-#migrate to the test db
+## migrate to the test db
+
 rake db:migrate RACK_ENV=test
 
-#Run "rspec" in terminal to check if test are passed
+## Run "rspec" in terminal to check if test are passed
+
 rspec
