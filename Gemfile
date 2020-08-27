@@ -8,3 +8,9 @@ gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'rake'
 gem 'pg'
+gem 'rack'
+
+group :test do
+    gem 'capybara'
+    gem 'rspec'
+end
